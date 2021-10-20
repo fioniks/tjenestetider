@@ -1,0 +1,98 @@
+   th {
+        text-align: center;
+        background-color: #611452;
+        color: white;
+        font-family: avibold;
+        font-size: 12px;
+    }
+    .hr {
+        text-align: left;
+        padding-left: 10px !important;
+    }
+    td {
+        background-color: white;
+        text-align: center;
+        vertical-align: middle !important;
+        line-height: 1.5 !important;
+        font-family: avim;
+        padding: 5px;
+        font-size: 12px;
+    }
+    body {
+        background-color: #F0F1F3;
+    }
+    tbody {
+        border-color: #611452 !important;
+    }
+    .yairac {
+        background-color:  #FFBB00;
+        text-align: left;
+        padding-left: 10px !important;
+    }
+    .nairac {
+        background-color: white;
+        text-align: left;
+        padding-left: 10px !important;
+    }
+    @font-face {
+    font-family: avibold;
+    src: url(Avinor-Bold.ttf);
+    }
+    @font-face {
+    font-family: avim;
+    src: url(Avinor-Medium.ttf);
+    }
+    h2 {
+        font-family: avibold;
+    }
+    h4 {
+        font-family: avibold;
+        font-size: 14px;
+    }
+    p {
+        font-family: avim;
+        font-size: 12px;
+    }
+    a:hover {
+    color: #611452 !important;
+    }
+a:link {
+  color: black !important;
+}
+a:visited {
+    color: black;
+}
+.airacheader {
+    text-align: center;
+    font-family: avibold;
+}
+li {
+    font-family: avim;
+    font-size: 12px;
+}
+.header {
+    text-align: center;
+    padding: 5px;
+}
+table {
+    width: 100% !important;
+    max-width: 120% !important;
+}
+.anchorLinks {
+    text-align: center;
+    font-family: avibold;
+    color: black !important;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F0F1F3;;
+    color: black;
+    text-align: center;
+ }
+ .pdfdownload {
+    text-align: center;
+    font-family: avibold;
+ }
