@@ -1,2 +1,2 @@
 # tjenestetider
-https://github.com/fioniks/tjenestetider/
+https://fioniks.github.io/tjenestetider/
