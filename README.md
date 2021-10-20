@@ -1,2 +1,2 @@
 # tjenestetider
-https://github.com/fioniks/tjenestetider/ops_hrs.html
+https://github.com/fioniks/tjenestetider/
