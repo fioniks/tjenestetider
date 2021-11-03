@@ -6,3 +6,10 @@ $(document).ready(function(){
     });
   });
 });
+function lastSunday(year, month) {
+    var date = new Date(year,month,1,12);
+    let weekday = date.getDay();
+    let dayDiff = weekday===0 ? 7 : weekday;
+    let lastSunday = date.setDate(date.getDate() - dayDiff);
+    return date.toDateString();
+}
