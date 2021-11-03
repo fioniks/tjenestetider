@@ -13,3 +13,12 @@ function lastSunday(year, month) {
     let lastSunday = date.setDate(date.getDate() - dayDiff);
     return date.toDateString();
 }
+jQuery(function($) {
+  // loop over all td's with the class of demand
+  $('td.demand').each(function() {
+    // load the DL-XXX into a variable (since it's used more than once)
+    var dl = $(this).text();
+    // change the td html to the link, referencing the DL-XXX number
+    $(this).html('<a href="order.php?dl=' + dl + '">' + dl + '</a>');
+  });
+});
